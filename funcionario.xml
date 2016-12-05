@@ -1,0 +1,12 @@
+<funcionario>  
+      <nome>João Paulo</nome> 
+      <email>meuemail@gmail.com</email> 
+      <dtNascimento>28/03/1990</dtNascimento> 
+      <cargo>Programador Java Senior</cargo> 
+      <matricula>PGR 0001</matricula> 
+      <telefones> 
+           <telefone>2128906678</telefone> 
+           <telefone>21988674322</telefone> 
+           <telefone>21956099876</telefone> 
+      </telefones> 
+ </funcionario> 

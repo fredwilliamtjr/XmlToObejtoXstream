@@ -1,0 +1,21 @@
+<sistema versao="1.02" xmlns="http://www.portalfiscal.inf.br/nfe">
+    <det>
+        <prod>
+            <cProd>100</cProd>
+            <xProd>CGC-200 CONTROLADOR COMPACTO</xProd>
+            <NCM>90328989</NCM>
+            <uCom>PÇ</uCom>
+            <uTrib>PÇ</uTrib>
+        </prod>
+        <imposto>
+            <ICMS>
+                <CST>102</CST>
+            </ICMS>
+            <ICMS>
+                <orig>0</orig>
+                <CST>101</CST>
+                <pCredSN>2.56</pCredSN>
+            </ICMS>
+        </imposto>
+    </det>
+</sistema>

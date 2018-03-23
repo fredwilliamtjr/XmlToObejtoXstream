@@ -8,11 +8,11 @@ import com.thoughtworks.xstream.converters.basic.DateConverter;
 public class XMLToObject {
 
     public static void main(String[] args) {
-        //new XMLToObject().transformXMLToFuncionario(); 
-        transformXMLToProduto();
+        transformXMLToFuncionario(); 
+        //transformXMLToProduto();
     }
 
-    private void transformXMLToFuncionario() {
+    private static void transformXMLToFuncionario() {
         File nossoArquivoXML = new File("funcionario.xml");
         XStream xStream = new XStream();
 
@@ -22,10 +22,10 @@ public class XMLToObject {
         xStream.alias("telefones", List.class);
         xStream.alias("telefone", Long.class);
         Funcionario funcionario = (Funcionario) xStream.fromXML(nossoArquivoXML);
-        this.printReportFuncionario(funcionario);
+        printReportFuncionario(funcionario);
     }
 
-    private void printReportFuncionario(Funcionario funcionario) {
+    private static void printReportFuncionario(Funcionario funcionario) {
         System.out.println("--- Relatório do funcionário ---");
         System.out.println("Nome: " + funcionario.getNome());
         System.out.println("Email: " + funcionario.getEmail());
